@@ -14,13 +14,13 @@
 		68770CA519A2FCBA00E7FAF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68770CA419A2FCBA00E7FAF4 /* main.m */; };
 		68770CA919A2FCBA00E7FAF4 /* GTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68770CA819A2FCBA00E7FAF4 /* GTAppDelegate.m */; };
 		68770CAC19A2FCBA00E7FAF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68770CAA19A2FCBA00E7FAF4 /* Main.storyboard */; };
-		68770CAF19A2FCBA00E7FAF4 /* GTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68770CAE19A2FCBA00E7FAF4 /* GTViewController.m */; };
 		68770CB119A2FCBA00E7FAF4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68770CB019A2FCBA00E7FAF4 /* Images.xcassets */; };
 		68770CB819A2FCBA00E7FAF4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68770CB719A2FCBA00E7FAF4 /* XCTest.framework */; };
 		68770CB919A2FCBA00E7FAF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68770C9819A2FCBA00E7FAF4 /* Foundation.framework */; };
 		68770CBA19A2FCBA00E7FAF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68770C9C19A2FCBA00E7FAF4 /* UIKit.framework */; };
 		68770CC219A2FCBA00E7FAF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68770CC019A2FCBA00E7FAF4 /* InfoPlist.strings */; };
 		68770CC419A2FCBA00E7FAF4 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68770CC319A2FCBA00E7FAF4 /* UITableViewController_Challenge_SolutionTests.m */; };
+		68770CCF19A3002800E7FAF4 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68770CCE19A3002800E7FAF4 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		68770CA719A2FCBA00E7FAF4 /* GTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTAppDelegate.h; sourceTree = "<group>"; };
 		68770CA819A2FCBA00E7FAF4 /* GTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTAppDelegate.m; sourceTree = "<group>"; };
 		68770CAB19A2FCBA00E7FAF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		68770CAD19A2FCBA00E7FAF4 /* GTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTViewController.h; sourceTree = "<group>"; };
-		68770CAE19A2FCBA00E7FAF4 /* GTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTViewController.m; sourceTree = "<group>"; };
 		68770CB019A2FCBA00E7FAF4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		68770CB619A2FCBA00E7FAF4 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68770CB719A2FCBA00E7FAF4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		68770CBF19A2FCBA00E7FAF4 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		68770CC119A2FCBA00E7FAF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		68770CC319A2FCBA00E7FAF4 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		68770CCD19A3002800E7FAF4 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
+		68770CCE19A3002800E7FAF4 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				68770CA719A2FCBA00E7FAF4 /* GTAppDelegate.h */,
 				68770CA819A2FCBA00E7FAF4 /* GTAppDelegate.m */,
 				68770CAA19A2FCBA00E7FAF4 /* Main.storyboard */,
-				68770CAD19A2FCBA00E7FAF4 /* GTViewController.h */,
-				68770CAE19A2FCBA00E7FAF4 /* GTViewController.m */,
+				68770CCD19A3002800E7FAF4 /* TableViewController.h */,
+				68770CCE19A3002800E7FAF4 /* TableViewController.m */,
 				68770CB019A2FCBA00E7FAF4 /* Images.xcassets */,
 				68770C9F19A2FCBA00E7FAF4 /* Supporting Files */,
 			);
@@ -251,7 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68770CA519A2FCBA00E7FAF4 /* main.m in Sources */,
-				68770CAF19A2FCBA00E7FAF4 /* GTViewController.m in Sources */,
+				68770CCF19A3002800E7FAF4 /* TableViewController.m in Sources */,
 				68770CA919A2FCBA00E7FAF4 /* GTAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

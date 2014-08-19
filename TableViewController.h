@@ -1,5 +1,5 @@
 //
-//  GTViewController.h
+//  TableViewController.h
 //  UITableViewController Challenge Solution
 //
 //  Created by Joel Erickson on 8/18/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GTViewController : UIViewController
+@interface TableViewController : UITableViewController
 
 @end
